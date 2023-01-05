@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wbc_msgs</name>
+  <version>0.1.0</version>
+  <description>ROS msgs for wbc library</description>
+
+  <maintainer email="dennis.mronga@dfki.de">Dennis Mronga</maintainer>
+  <license>BSD-3</license>
+  <url type="https://arc-opt.github.io/Documentation"></url>
+  <author email="dennis.mronga@dfki.de">Dennis Mronga</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>geometry_msgs</depend>
+
+</package>
