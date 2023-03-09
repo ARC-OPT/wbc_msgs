@@ -1,35 +1,28 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.8)
 project(wbc_msgs)
 
-add_compile_options(-std=c++11)
-find_package(catkin REQUIRED COMPONENTS
-  geometry_msgs
-  message_generation
-)
-
-include(FindPkgConfig)
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 
 ################################################
 ## Declare ROS messages, services and actions ##
 ################################################
 
-## Generate messages in the 'msg' folder
-add_message_files(
-   DIRECTORY msg
-   FILES
-   RigidBodyState.msg
-   TaskConfig.msg
-   TaskStatus.msg
-   RadialPotentialField.msg
-   RadialPotentialFieldVector.msg
+set(msg_files
+  "msg/RigidBodyState.msg"
+  "msg/TaskConfig.msg"
+  "msg/TaskStatus.msg"
+  "msg/RadialPotentialField.msg"
+  "msg/RadialPotentialFieldVector.msg"
 )
 
-## Generate added messages and services with any dependencies listed here
-generate_messages(
-   DEPENDENCIES
-   geometry_msgs
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
 )
-
-catkin_package(
-  CATKIN_DEPENDS geometry_msgs
-)
+ament_export_dependencies(rosidl_default_runtime)
