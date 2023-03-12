@@ -1,0 +1,7 @@
+Header header 
+float32 desired_period
+float32 actual_period
+float32 time_robot_model_update
+float32 time_scene_update
+float32 time_solve
+float32 time_per_cycle

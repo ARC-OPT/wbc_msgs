@@ -22,6 +22,7 @@ add_message_files(
    TaskStatus.msg
    RadialPotentialField.msg
    RadialPotentialFieldVector.msg
+   WbcTimingStats.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
