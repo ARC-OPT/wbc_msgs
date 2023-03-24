@@ -22,6 +22,7 @@ set(msg_files
   "msg/TaskStatus.msg"
   "msg/RadialPotentialField.msg"
   "msg/RadialPotentialFieldVector.msg"
+  "msg/WbcTimingStats.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
