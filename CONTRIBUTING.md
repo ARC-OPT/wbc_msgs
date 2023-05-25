@@ -10,7 +10,7 @@ what you are trying to do.
 The preferred way to contribute to wbc_msgs is to fork the main repository on Gitlab, then submit a "pull request"
 (PR):
 
-1. Fork the [project repository](https://git.hb.dfki.de/dfki-control/wbc/wbc_msgs):
+1. Fork the [project repository](https://github.com/ARC-OPT/wbc_msgs):
    click on the 'Fork' button near the top of the page. This creates a copy of
    the code under your account on the Gitlab server.
 
@@ -49,6 +49,3 @@ Summary: maintainer can push minor changes directly, pull request + 1 reviewer f
 
 * Adding new functionality requires the addition of unit tests. In pinciple, every class should be accompanied by at least one unit test that checks the common use case, and one unit tests that checks for the common error cases
 
-## Project Roadmap
-
-Check the [Issue Tracker](https://git.hb.dfki.de/dfki-control/wbc/wbc_msgs/-/issues) for roadmap planning. 
