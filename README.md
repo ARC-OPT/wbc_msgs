@@ -16,7 +16,7 @@ See [package.xml](https://github.com/ARC-OPT/wbc_msgs/blob/main/package.xml)
 
 ## Installation
 
-See [here](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md)
+See [here](https://github.com/ARC-OPT/wbc_ros/blob/main/README.md)
 
 ## Documentation
 
