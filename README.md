@@ -20,11 +20,11 @@ See [here](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md)
 
 ## Documentation
 
-See the [full documentation](https://arc-opt.github.io/Documentation/) for the [Readme.md](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md) of the wbc_ros repository. 
+See the [full documentation](https://arc-opt.github.io/Documentation/) for the [Readme.md](https://github.com/ARC-OPT/wbc_ros/blob/main/README.md) of the wbc_ros repository. 
 
 ## Testing
 
-See the [Readme.md](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md) of the wbc_ros repository. 
+See the [Readme.md](https://github.com/ARC-OPT/wbc_ros/blob/main/README.md) of the wbc_ros repository. 
 
 ## Contributing
 
