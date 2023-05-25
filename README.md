@@ -12,25 +12,25 @@ WBC was initiated and is currently developed at the [Robotics Innovation Center]
 
 ## Requirements / Dependencies
 
-See [package.xml](https://git.hb.dfki.de/dfki-control/wbc/wbc_msgs/-/blob/main/package.xml)
+See [package.xml](https://github.com/ARC-OPT/wbc_msgs/blob/main/package.xml)
 
 ## Installation
 
-See [here](https://git.hb.dfki.de/dfki-control/wbc/wbc_ros/-/blob/main/README.md)
+See [here](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md)
 
 ## Documentation
 
-See the [full documentation](https://arc-opt.github.io/Documentation/) for the [Readme.md](https://git.hb.dfki.de/dfki-control/wbc/wbc_ros/-/blob/main/README.md) of the wbc_ros repository. 
+See the [full documentation](https://arc-opt.github.io/Documentation/) for the [Readme.md](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md) of the wbc_ros repository. 
 
 ## Testing
 
-See the [Readme.md](https://git.hb.dfki.de/dfki-control/wbc/wbc_ros/-/blob/main/README.md) of the wbc_ros repository. 
+See the [Readme.md](https://github.com/ARC-OPT/wbc_msgs/blob/main/README.md) of the wbc_ros repository. 
 
 ## Contributing
 
-Please use the [issue tracker](https://git.hb.dfki.de/dfki-control/wbc/wbc_msgs/-/issues) to submit bug reports and feature requests.
+Please use the [issue tracker](https://github.com/ARC-OPT/wbc_msgs/issues) to submit bug reports and feature requests.
 
-Please use merge requests as described [here](https://git.hb.dfki.de/dfki-control/wbc/wbc_msgs/-/blob/main/CONTRIBUTING.md) to add/adapt functionality.
+Please use merge requests as described [here](https://github.com/ARC-OPT/wbc_msgs/blob/main/CONTRIBUTING.md) to add/adapt functionality.
 
 ## License
 
