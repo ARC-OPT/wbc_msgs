@@ -10,7 +10,6 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(std_msgs REQUIRED)
 
 ################################################
 ## Declare ROS messages, services and actions ##
@@ -18,13 +17,12 @@ find_package(std_msgs REQUIRED)
 
 set(msg_files
   "msg/RigidBodyState.msg"
-  "msg/TaskConfig.msg"
   "msg/TaskStatus.msg"
-  "msg/RadialPotentialField.msg"
-  "msg/RadialPotentialFieldVector.msg"
   "msg/WbcTimingStats.msg"
-  "msg/TaskWeights.msg"
-  "msg/TaskActivation.msg"
+  "msg/RobotState.msg"
+  "msg/JointState.msg"
+  "msg/JointCommand.msg"
+  "msg/Contacts.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

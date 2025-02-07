@@ -1,4 +1,3 @@
-std_msgs/Header header 
 float32 desired_period
 float32 actual_period
 float32 time_robot_model_update

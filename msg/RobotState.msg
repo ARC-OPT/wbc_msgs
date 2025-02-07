@@ -1,0 +1,2 @@
+wbc_msgs/RigidBodyState floating_base_state
+wbc_msgs/JointState joint_state
