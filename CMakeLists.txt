@@ -16,18 +16,13 @@ find_package(geometry_msgs REQUIRED)
 ################################################
 
 set(msg_files
-  "msg/RigidBodyState.msg"
   "msg/TaskStatus.msg"
   "msg/WbcTimingStats.msg"
-  "msg/RobotState.msg"
-  "msg/JointState.msg"
-  "msg/JointCommand.msg"
-  "msg/Contacts.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
+  DEPENDENCIES builtin_interfaces std_msgs
 )
 ament_export_dependencies(rosidl_default_runtime)
 
