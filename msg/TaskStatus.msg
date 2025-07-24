@@ -1,5 +1,5 @@
-float32 activation
-float32[] weights
-float32[] y_ref
-float32[] y_solution
-float32[] y
+float64 activation
+float64[] weights
+float64[] y_ref
+float64[] y_solution
+float64[] y
