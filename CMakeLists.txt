@@ -10,6 +10,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(robot_control_msgs REQUIRED)
 
 ################################################
 ## Declare ROS messages, services and actions ##
@@ -18,11 +19,12 @@ find_package(geometry_msgs REQUIRED)
 set(msg_files
   "msg/TaskStatus.msg"
   "msg/WbcTimingStats.msg"
+  "msg/BipedControlTarget.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES builtin_interfaces std_msgs
+  DEPENDENCIES builtin_interfaces std_msgs robot_control_msgs
 )
 ament_export_dependencies(rosidl_default_runtime)
 
