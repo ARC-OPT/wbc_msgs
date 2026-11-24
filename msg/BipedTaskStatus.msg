@@ -1,0 +1,12 @@
+robot_control_msgs/RigidBodyState left_foot_feedback
+robot_control_msgs/RigidBodyState right_foot_feedback
+robot_control_msgs/RigidBodyState body_pose_feedback
+robot_control_msgs/JointState joint_position_feedback
+
+wbc_msgs/TaskStatus left_foot_task_status
+wbc_msgs/TaskStatus right_foot_task_status
+wbc_msgs/TaskStatus body_pose_task_status
+wbc_msgs/TaskStatus joint_position_task_status
+
+geometry_msgs/Wrench wrench_left_foot
+geometry_msgs/Wrench wrench_right_foot

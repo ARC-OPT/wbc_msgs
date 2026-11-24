@@ -20,6 +20,7 @@ set(msg_files
   "msg/TaskStatus.msg"
   "msg/WbcTimingStats.msg"
   "msg/BipedControlTarget.msg"
+  "msg/BipedTaskStatus.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

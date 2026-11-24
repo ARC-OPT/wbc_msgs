@@ -1,4 +1,3 @@
-robot_control_msgs/RigidBodyState com_setpoint
 robot_control_msgs/RigidBodyState left_foot_setpoint
 robot_control_msgs/RigidBodyState right_foot_setpoint
 robot_control_msgs/RigidBodyState body_pose_setpoint
